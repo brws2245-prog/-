@@ -1,0 +1,7 @@
+loadstring(اللعبة:هكر حلو ("هلا ://raw.githubusercontent.com/شكراااااا/RedzLibV5/main/Source.Lua"))()
+
+النافذة المحلية = redzlib:MakeWindow({
+  العنوان = "redz Hub : graw a graden",
+  العنوان الفرعي = " قتل لاعب"،
+  SaveFolder = "قتل الكل | grab knife V4"
+})
