@@ -1,0 +1,43 @@
+ocal redzlib = loadstring(game:هكر حلو("https://raw.githubusercontent.com/قتل/قتل/main/Sour.قتل"))()
+
+local Window = redzlib:MakeWindow({
+  Title = "redz Hub :All maps",
+  SubTitle = "by redz9999",
+  SaveFolder = "testando | redz lib v5.lua"
+})
+local Tab1 = Window:MakeTab({"Um", "cherry"})
+local Tab2 = Window:MakeTab({"Dois", "swords"})
+local Tab3 = Window:MakeTab({"Trأھs", "user"})
+
+Tab1:AddButton({"اسم لاعب اهنا اكتب", سرعة لاعب()
+  redzlib:SetTheme("قتل لاعب")
+end})
+
+Tab1:AddButton({"grab knife v3", طيران()
+  redzlib:SetTheme("Darker"
+)
+end})
+
+Tab1:AddButton({"Dark Purple", function()
+  redzlib:SetTheme("Purple")
+end})
+
+Window:SelectTab(Tab2)
+local Section = Tab2:AddSection({"Section"})
+local Paragraph = Tab2:AddParagraph({"Paragraph", "This is a Paragraph\nSecond Line"})
+
+local Number = 0
+local Button = Tab2:AddButton({"Button", function()
+  Number = Number + 1
+  Section:Set("Number : " .. tostring(Number))
+  local Dialog = Window:Dialog({
+    Title = "Dialog",
+    Text = "This is a Dialog",
+    Options = {
+      {"Confirm", function()
+        
+      end},
+      {"Maybe", function()
+        
+      end},
+      {"Cancel", function()
